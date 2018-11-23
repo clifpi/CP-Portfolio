@@ -2,3 +2,20 @@
   border-bottom: blue 3px solid;
   opacity: 0.8;
 }
+#hero{
+  background: url(../images/bldg.jpeg);
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;  
+}
+#hero .dark-overlay {
+  position:absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 700px;
+}
+#hero .home-inner{
+  padding-top: 150px;
+}
