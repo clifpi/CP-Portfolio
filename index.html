@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
     crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
-  <title>Porfolio</title>
+  <title>CP Porfolio</title>
 </head>
 
 <body>
@@ -22,7 +22,16 @@
         <span class="navbar-toggler-icon"></span>
         </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
+       <ul class="navbar-nav ml-auto">
+         <li class="nav-item mr-2">
+            <a href="#"> <i class="fab fa-twitter-square fa-2x"></i></a>
+            </li>
+          <li class="nav-item mr-2">
+            <a href="#"> <i class="fab fa-instagram fa-2x"></i></a>
+            </li>
+          <li class="nav-item mr-2">
+            <a href="#"> <i class="fab fa-facebook fa-2x"></i></a>
+            </li>
           <li class="nav-item">
           <a href="#about" class="nav-link">About</a>
         </li>
@@ -31,30 +40,31 @@
         </li>
           <li class="nav-item">
           <a href="#references" class="nav-link">References</a>
-        </li>
+            </li>
           </ul>
         </div>
       </div>
   </nav>
 <!-- Hero -->
   <header id="hero">
-  <div class="dark-overlay">
+  <div class="image">
     <div class="home-inner container">
       <div class="row">
-        <div class="col-lg-8 d-none d-lg-block">
-        <h1 class="display-4" style="color:white">Build incredible websites to help your business
-          </h1>
+        <div class="col-lg-8 d-none d-lg-block text-white">
+        <h1 class="display-4">Build incredible websites to help your business</h1>
          <div class="d-flex">
-         <div class="p-4 align-self-start">
-           <h1 class="display-4" style="color:white">Create a strong presence on the internet for customers to see!</h1>
+           <div class="p-4 align-self-start">
+           <i class="fab fa-internet-explorer fa-2x"></i>
+           </div>
+           <div class="p-4 align-self-end">Create a website for your business that is compatible with standard browsers</div>
             </div>
-          </div>
           <div class="d-flex">
          <div class="p-4 align-self-start">
-           <h1 class="display-4" style="color:white">Websites can be designed to be dynamic and mobile responsive for access by mobile devices!</h1>
+           <i class="fab fa-android fa-2x"></i>
+           </div>
+            <div class="p-4 align-self-end">Have a responsive website to be viewed on mobile devices</div>
             </div>
           </div>
-        </div>
         <div class="col-lg-4">
           <div class="card bg-dark text-center card-form">
           <div class="card-body">
@@ -62,7 +72,7 @@
             <p style="color:white"> Register here</p>
             <form>
               <div class="form-group">
-                <input type="text" class="form-control form-control-lg" placeholder="name">
+                <input type="text" class="form-control form-control-lg" placeholder="First and Last Name">
               </div>
               <div class="form-group">
                 <input type="email" class="form-control form-control-lg" placeholder="Email">
@@ -70,12 +80,54 @@
               <input type="submit" value="Submit" class="btn-outline-light btn-block">
               </form>
             </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    </div>
   </header>
+  <!-- About -->
+  <section id="about" class="bg-dark">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center text-white">
+      <h1 class="display-4">About</h1>
+        <p class="abouttext">Cliff Pinnock is a 2 month experienced developer in HTML/CSS</p>
+      </div>
+      </div>
+     </div>
+    </section>
+      <section id="portfolios" class="bg-light py-5">
+      <div class="container">
+      <h1 class="display-4 text-center text-secondary">Portfolios and Website Samples</h1>
+      <div class="row">
+      <div class="col-12 col-md-4">
+      <img class="img-fluid" src="images/bnb.JPG">
+            </div>
+      <div class="col-12 col-md-4">
+      <img class="img-fluid" src="images/news.JPG">
+            </div>
+      <div class="col-12 col-md-4">
+      <img class="img-fluid" src="images/apple.JPG">
+            </div>
+          </div>
+         </div>
+        </section>
+  <section id="references" class="bg-dark">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center text-white">
+      <h1 class="display-4">References</h1>
+        <p class="abouttext">Cliff Pinnock is a 2 month experienced developer in HTML/CSS</p>
+        <a href="#" class="btn btn-outline-primary">Click here for References</a>
+      </div>
+      </div>
+     </div>
+    </section>
+        
+</body>
+  
+  
 
   <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
